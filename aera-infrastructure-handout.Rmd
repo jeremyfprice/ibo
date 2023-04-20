@@ -1,0 +1,86 @@
+---
+title: |
+  | Creating Boundary Infrastructures in Networks of
+  | Collaboration for Educational Change
+runningheader: "Creating Boundary Infrastructures" # only for pdf output
+# subtitle: "Creating Boundary Infrastructures" # only for html output
+author: "Jeremy F Price, Amy Waechter-Versaw, Brooke Moreland, AJ Knoors"
+# date: "`r Sys.Date()`"
+output:
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_html: default
+  tufte::tufte_book:
+    citation_package: natbib
+    latex_engine: xelatex
+bibliography: skeleton.bib
+mainfont: ETBembo
+monofont: Menlo
+fontsize: 8pt
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+library(tufte)
+# invalidate cache when the tufte version changes
+knitr::opts_chunk$set(cache.extra = packageVersion('tufte'))
+options(htmltools.dir.version = FALSE)
+```
+
+```{marginfigure}
+You can access an interactive version of this handout at https://hdl.handle.net/1805/31591.
+```
+
+This research utilizes Actor Network Theory (Fenwick & Edwards, 2011; Latour, 1987; Nespor, 2002) to document, analyze, and interrogate an educational change effort to promote educational equity and inclusion with technology across a dispersed and heterogenous network (Kezar et al., 2019; Lieberman & McLaughlin, 1992; Penuel et al., 2016) of teachers and other educators, families, and community members in response to the COVID-19 Pandemic. This research maps a statewide project supporting educators, families, and communities to develop resources and practices rooted in equitable and inclusive education distributed on a publicly-available website[^1]. All resources were rooted in the Culturally Relevant Pedagogy (Howard, 2003; Joseph, 2009; Ladson-Billings, 1995) and Universal Design for Learning (Fritzgerald, 2020; Meyer et al., 2013; Rose & Meyer, 2002) frameworks.
+
+We worked directly with several networks:[^2]
+
+  1. *Community Caucus*, a cohort of family stakeholders from across the state who provided ongoing feedback and guidance;
+  2. *Content Review Board*, educators who reviewed resources prior to posting;
+  3. *Teacher Cohorts*, groups of teachers from across the state invested in building their capacity for equitable and inclusive teaching practices by contributing resources for the website;
+  4. *University Structures*, such as staff and supports.
+
+[^1]: [digitaleducationhub.community](https://digitaleducationhub.community/)
+[^2]: These are considered *sponsored*, *individual-actor*, *sparse*, and *goal-directed* networks (de Lima, 2010), distinct from typical educational change networks which are *collective-actor* and *dense* based in a specific institution or school. These distinctions are reflective of the early COVID-era.
+
+# Theoretical Framework
+
+Actor Network Theory (ANT) traces power and influence across "heterogeneous assemblages" (Law, 1992).[^3] This research leverages the following components or underlying assumptions of ANT: 1) *Content-Context*, acknowledging the tight integration of the change effort and the context (Nespor, 2002); 2) *Social-Material*, recognizing both the human and non-human agents (Fenwick et al., 2011; Law, 1992); 3) *Networks-Agency-Translation*, identifying how ideas are shared and translated to be meaningful and useful (Callon, 1984; Star & Griesemer, 1989).
+
+[^3]: ANT is both good to think with (McQuillan, 2008) and good to act with (Fenwick & Edwards, 2011).
+
+# Findings
+
+```{marginfigure}
+![Actor Network Theory Diagram](ant.pdf)
+*Figure 1.* Productive links and knots diagram (Latour, 1999; Young et al.,2010).
+```
+
+*Links and Knots.* Our goal was to promote equity and inclusion with technology in teaching and learning; we therefore identified the ways in which we influenced educational change (Latour, 1999; Young et al., 2010). The schematic provides a dynamic overview in which the churn of concurrent activities causes networks to intersect and bind, causing "links and knots." The links and knots and the productive friction that they cause are what enables change in dispositions, practices, and infrastructures across the network. We mobilized a series of ideas and frameworks, leveraged alliances, publicly represented the work through the website and other venues, and promoted autonomization and translation of the ideas into practice.
+
+*From Objects to Infrastructures.* We recognized we needed to more clearly mobilize our ideas as teachers tended to fall back on existing practices and dispositions, so we introduced a number of boundary objects (Scoles, 2018; Star & Griesemer, 1989). Boundary objects are materials that help to guide change, transition, and translation. The objects by themselves were insufficient so we shifted our focus to infrastructures (Hopkins & Woulfin, 2015; Lamb & Weiner, 2021; Penuel, 2019; Star, 2002) with boundary practices and resources (Carlile, 2002; Farrell et al., 2022; Suchman, 2000).
+
+```{marginfigure}
+![Test 3](bim.pdf)
+*Figure 2.* Boundaries infrastructure map.
+```
+
+*Providing Opportunities for Engagement and Mediated Change.* Thinking through the boundary practices as part of a holistic infrastructure rather than as discrete objects or activities helped us to plan for ongoing intentional experiences for all participants. We therefore explored boundary practices to build capacity, allowing participants to recontextualize the ideas we introduce around equity and inclusion into their experiences and align some of their approaches to these new ideas (Wenger, 1999).
+
+```{marginfigure}
+![Test 4](oar.pdf)
+*Figure 3.* Ongoing opportunities for alignment and recontentextualization.
+```
+
+The materials review process, which involved nearly the entirety of the participants and was rooted in the authentic work of the teachers that also provided opportunities to stretch with respect to equity and inclusion, was a rich boundary practice for alignment and recontextualization. There were opportunities at each stage to recontextualize and align the work for deepening equitable and inclusive teaching and learning with technology.
+
+![](lpw.pdf)
+```{marginfigure}
+*Figure 4.* Materials review process.
+```
+# Discussion/Conclusions
+
+*Networked Infrastructuring.* Shifting from "project" to "infrastructures" allowed us to focus on the boundary infrastructure components. We stretched the concept of infrastructuring in educational change efforts across institutions while including the families and communities to deepen equity, inclusion, and technology use across the network.
+
+*Heterogeneity as Strength.* Our network had a high degree of heterogeneity (Dakin & Ryder, 2020; Kovarik et al., 2012). By providing opportunities for the various segments of the network to interact in meaningful ways, we turned the high degree of heterogeneity into an asset. These interactions added diverse, thoughtful perspectives and approaches to typically isolated activities such as teaching, learning, and change efforts.
