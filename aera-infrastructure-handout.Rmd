@@ -7,14 +7,13 @@ runningheader: "Creating Boundary Infrastructures" # only for pdf output
 author: "Jeremy F Price, Amy Waechter-Versaw, Brooke Moreland, AJ Knoors"
 # date: "`r Sys.Date()`"
 output:
+  tufte::tufte_html: default
   tufte::tufte_handout:
     citation_package: natbib
     latex_engine: xelatex
-  tufte::tufte_html: default
   tufte::tufte_book:
     citation_package: natbib
     latex_engine: xelatex
-bibliography: skeleton.bib
 mainfont: ETBembo
 monofont: Menlo
 fontsize: 8pt

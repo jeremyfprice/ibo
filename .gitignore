@@ -40,11 +40,6 @@ vignettes/*.pdf
 *.knit.md
 *.log
 
-# Final files created by R markdown
-*.html
-*.pdf
-*.png
-
 # R Environment Variables
 .Renviron
 
